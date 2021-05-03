@@ -616,7 +616,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n__webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n__webpack_require__(/*! ./index.scss */ \"./src-wp/index.scss\");\nconsole.log(\"hello from index.ts.\");\n\n\n//# sourceURL=webpack://try_node-pdf/./src-wp/index.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n__webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n__webpack_require__(/*! ./index.scss */ \"./src-wp/index.scss\");\nconsole.log(\"hello from index.ts with Bootstrap5.\");\n\n\n//# sourceURL=webpack://try_node-pdf/./src-wp/index.ts?");
 
 /***/ })
 
