@@ -54,3 +54,11 @@ $ npm run build
 $ npm i -D ts-loader
 $ npx tsc --init --rootDir src-wp --outDir docs --esModuleInterop --resolveJsonModule --lib es2019,dom --module commonjs
 ```
+
+## Bootstrap 5 導入
+
+```bash
+$ npm i -D css-loader style-loader sass sass-loader postcss postcss-loader autoprefixer mini-css-extract-plugin
+$ npm i -S bootstrap@next @popperjs/core
+$ vi webpack.config.js
+```
