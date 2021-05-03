@@ -29,3 +29,19 @@ v14.16.1
 $ npm -v
 6.14.12
 ```
+
+## webpack 導入（フロントエンド用）
+
+- [最新版で学ぶwebpack 5入門 JavaScriptのモジュールバンドラ](https://ics.media/entry/12140/)
+- [webpack の基本的な使い方](https://www.webdesignleaves.com/pr/jquery/webpack_basic_01.html)
+
+```bash
+$ npm init -y
+$ npm i -D webpack webpack-cli
+$ cp -p package.json package.json.org
+$ vi package.json
+$ diff package.json package.json.org
+7d6
+<     "build": "webpack",
+$ npm run build
+```

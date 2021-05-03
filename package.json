@@ -1,0 +1,28 @@
+{
+  "name": "try_node-pdf",
+  "version": "1.0.0",
+  "description": "## nodenv で node リスト最新化",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbz3/try_node-pdf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbz3/try_node-pdf/issues"
+  },
+  "homepage": "https://github.com/gbz3/try_node-pdf#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
