@@ -45,3 +45,12 @@ $ diff package.json package.json.org
 <     "build": "webpack",
 $ npm run build
 ```
+
+## フロントエンドを Typescript 化
+
+- [最新版TypeScript+webpack 5の環境構築まとめ](https://ics.media/entry/16329/)
+
+```bash
+$ npm i -D ts-loader
+$ npx tsc --init --rootDir src-wp --outDir docs --esModuleInterop --resolveJsonModule --lib es2019,dom --module commonjs
+```
